@@ -1,4 +1,4 @@
-setwd("/Users/Arpit/Documents/R_Playground/goodbooks-10k")
+setwd("/Users/R_Playground/goodbooks-10k")
 library(recommenderlab)
 library(data.table)
 library(dplyr)
@@ -19,10 +19,10 @@ library(Matrix)
 
 ##########################################################  CREATING DATATABLES ####################################################
 
-ratings <- fread("/Users/Arpit/Documents/R_Playground/goodbooks-10k/ratings.csv")
-books <- fread("/Users/Arpit/Documents/R_Playground/goodbooks-10k/books.csv")
-book_tags <- fread("/Users/Arpit/Documents/R_Playground/goodbooks-10k/book_tags.csv")
-tags <- fread("/Users/Arpit/Documents/R_Playground/goodbooks-10k/tags.csv")
+ratings <- fread("ratings.csv")
+books <- fread("books.csv")
+book_tags <- fread("book_tags.csv")
+tags <- fread("tags.csv")
 
 knitr::opts_chunk$set(warning = FALSE, message = FALSE)
 
