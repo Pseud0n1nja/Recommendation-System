@@ -1,4 +1,4 @@
-# Book-Recommender
+# Recommender System
 Recommender Engine for the Books on GoodReads Dataset: deeper insight at data-driven book recommendations
 
 Collaborative filtering is a standard method for product recommendations. To get the general idea consider this example:
